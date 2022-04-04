@@ -21,7 +21,7 @@ public class Square extends Figure{
     @Override
     public String info() {
         return "\nsideLength: " + sideLength + Figure.unit +
-                "\nperimeter: " + getPerimeter(2) + Figure.unit +
+                "\nperimeter: " + getPerimeter() + Figure.unit +
                 "\narea: " + calculateArea() + Figure.unit ;
     }
 }

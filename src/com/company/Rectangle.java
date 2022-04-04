@@ -29,7 +29,7 @@ public class Rectangle extends Figure{
     public String info() {
         return  "\nlength: " + length + Figure.unit +
                 "\nwidth: " + width + Figure.unit +
-                "\nperimeter: " + getPerimeter(3) + Figure.unit +
+                "\nperimeter: " + getPerimeter() + Figure.unit +
                 "\narea: " + calculateArea() + Figure.unit ;
     }
 }
